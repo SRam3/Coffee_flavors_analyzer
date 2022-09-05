@@ -35,18 +35,12 @@ def information_extraction_from_pdf():
                 rectangle_black = Rect(163, 290, 462, 380)
                 text_black = page.get_textbox(rectangle_black).split("\n")
 
-                data = {
-                    'id': {
-                        '0':f'{text_red[0]}'
-                    }
-                }
-                    # 'fecha':f"{text_red[2]}"
-
-
+                data = {'ID': f'{text_red[0]}','Fecha': f'{text_red[2]}'}
+                    
                 print(data)
                 # Write
-                # with open("data.json", "a") as f:
-                #     json.dump(data, f, ensure_ascii=False, sort_keys=True, indent=2)
+                with open("data.json", "a") as f:
+                    json.dump(data, f, ensure_ascii=False, sort_keys=True, indent=2)
 
 
 def visualize_region_of_extraction():
