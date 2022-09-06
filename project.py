@@ -1,4 +1,3 @@
-from cgitb import reset
 import os.path
 import fitz
 import glob
