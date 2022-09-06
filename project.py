@@ -30,7 +30,7 @@ def information_extraction_from_pdf():
                 rectangle_blue = Rect(30, 190, 161, 370)
                 text_blue = page.get_textbox(rectangle_blue).split("\n")
 
-                rectangle_yellow = Rect(163, 188, 462, 290)
+                rectangle_yellow = Rect(163, 188, 462, 303)
                 text_yellow = page.get_textbox(rectangle_yellow).split("\n")
 
                 rectangle_black = Rect(163, 290, 462, 380)
@@ -45,16 +45,22 @@ def information_extraction_from_pdf():
                     'Acidez': f'{text_blue[7]}',
                     'Cuerpo': f'{text_blue[9]}',
                     'Uniformidad': f'{text_blue[11]}',
-                    'Balamce': f'{text_blue[13]}',
+                    'Balance': f'{text_blue[13]}',
                     'Taza Limpia': f'{text_blue[15]}',
                     'Dulzura': f'{text_blue[17]}',
                     'Puntaje Catador': f'{text_blue[19]}',
-                    'Puntaje Total': f'{text_blue[21]}'
+                    'Puntaje Total': f'{text_blue[21]}',
+                    'Descripcion': f'{text_yellow}',
+                    'Humedad': f'{text_black[1]}',
+                    'Almendra sana': f'{text_black[3]}',
+                    'Broca': f'{text_black[5]}',
+                    'Pasilla': f'{text_black[7]}'
                 }
 
                 data_pandas_format.append(data)
+                # print(text_yellow)
                 
-    print(data_pandas_format)
+    # print(text_yellow[0])
     # Write
     with open("data.json", "a") as f:
         json.dump(data_pandas_format, f, ensure_ascii=False, sort_keys=True, indent=2)
@@ -82,7 +88,7 @@ def visualize_region_of_extraction():
         rectangle_red = Rect(30, 67, 250, 123)
         rectangle_blue = Rect(30, 190, 161, 370)
         rectangle_yellow = Rect(163, 188, 462, 290)
-        rectangle_black = Rect(163, 290, 462, 380)
+        rectangle_black = Rect(163, 290, 462, 390)
 
         if VISUALIZE:
             # Draw a rectangle with specific color to visualize the data extraction area
