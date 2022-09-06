@@ -1,154 +1,767 @@
-{
-  "Fecha": "11/03/2019",
-  "ID": "1255"
-}{
-  "Fecha": "28/11/2019",
-  "ID": "1612"
-}{
-  "Fecha": "18/05/2022",
-  "ID": "2665"
-}{
-  "Fecha": "22/03/2022",
-  "ID": "2609"
-}{
-  "Fecha": "08/07/2020",
-  "ID": "1949"
-}{
-  "Fecha": "22/12/2021",
-  "ID": "2555"
-}{
-  "Fecha": "01/12/2021",
-  "ID": "2531"
-}{
-  "Fecha": "09/12/2021",
-  "ID": "2533"
-}{
-  "Fecha": "07/03/2021",
-  "ID": "2290"
-}{
-  "Fecha": "26/04/2019",
-  "ID": "1340"
-}{
-  "Fecha": "16/06/2021",
-  "ID": "2337"
-}{
-  "Fecha": "07/07/2021",
-  "ID": "2352"
-}{
-  "Fecha": "10/05/2021",
-  "ID": "2318"
-}{
-  "Fecha": "21/09/2021",
-  "ID": "2381"
-}{
-  "Fecha": "30/09/2021",
-  "ID": "2403"
-}{
-  "Fecha": "01/12/2021",
-  "ID": "2531"
-}{
-  "Fecha": "26/10/2021",
-  "ID": "2473"
-}{
-  "Fecha": "09/12/2021",
-  "ID": "2533"
-}{
-  "Fecha": "07/07/2022",
-  "ID": "2731"
-}{
-  "Fecha": "08/11/2019",
-  "ID": "1565"
-}{
-  "Fecha": "16/03/2021",
-  "ID": "2297"
-}{
-  "Fecha": "05/11/2020",
-  "ID": "2079"
-}{
-  "Fecha": "16/06/2020",
-  "ID": "1926"
-}{
-  "Fecha": "11/02/2022",
-  "ID": "2589"
-}{
-  "Fecha": "02/02/2022",
-  "ID": "2574"
-}{
-  "Fecha": "22/10/2020",
-  "ID": "2066"
-}{
-  "Fecha": "01/03/2021",
-  "ID": "2288"
-}{
-  "Fecha": "07/03/2021",
-  "ID": "2291"
-}{
-  "Fecha": "09/12/2021",
-  "ID": "2533"
-}{
-  "Fecha": "16/12/2020",
-  "ID": "2172"
-}{
-  "Fecha": "09/02/2021",
-  "ID": "2254"
-}{
-  "Fecha": "20/01/2021",
-  "ID": "2226"
-}{
-  "Fecha": "30/11/2020",
-  "ID": "2148"
-}{
-  "Fecha": "16/03/2022",
-  "ID": "2605"
-}{
-  "Fecha": "22/12/2021",
-  "ID": "2554"
-}{
-  "Fecha": "09/02/2021",
-  "ID": "2255"
-}{
-  "Fecha": "30/04/2021",
-  "ID": "2313"
-}{
-  "Fecha": "16/02/2021",
-  "ID": "2267"
-}{
-  "Fecha": "27/04/2022",
-  "ID": "2632"
-}{
-  "Fecha": "23/07/2021",
-  "ID": "2356"
-}{
-  "Fecha": "02/02/2022",
-  "ID": "2574"
-}{
-  "Fecha": "04/09/2019",
-  "ID": "1506"
-}{
-  "Fecha": "14/09/2020",
-  "ID": "2012"
-}{
-  "Fecha": "12/01/2021",
-  "ID": "2206"
-}{
-  "Fecha": "07/10/2020",
-  "ID": "2043"
-}{
-  "Fecha": "07/10/2020",
-  "ID": "2047"
-}{
-  "Fecha": "09/11/2019",
-  "ID": "1763"
-}{
-  "Fecha": "09/06/2020",
-  "ID": "1905"
-}{
-  "Fecha": "25/08/2020",
-  "ID": "1992"
-}{
-  "Fecha": "16/06/2020",
-  "ID": "1927"
-}{
-  "Fecha": "27/08/2020",
-  "ID": "1895"
-}
+[
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "11/03/2019",
+    "Fragancia/Aroma": "7.50",
+    "ID": "1255",
+    "Puntaje Catador": "7.25",
+    "Puntaje Total": "81.50",
+    "Sabor": "7.25",
+    "Sabor Residual": "7.00",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "28/11/2019",
+    "Fragancia/Aroma": "7.50",
+    "ID": "1612",
+    "Puntaje Catador": "7.25",
+    "Puntaje Total": "82.00",
+    "Sabor": "7.00",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "18/05/2022",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2665",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "22/03/2022",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2609",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "82.75",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.25",
+    "Balamce": "7.50",
+    "Cuerpo": "7.25",
+    "Dulzura": "10.00",
+    "Fecha": "08/07/2020",
+    "Fragancia/Aroma": "7.50",
+    "ID": "1949",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "82.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "22/12/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2555",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "82.75",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.75",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "01/12/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2531",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.75",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "09/12/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2533",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "07/03/2021",
+    "Fragancia/Aroma": "8.00",
+    "ID": "2290",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "84.50",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.00",
+    "Cuerpo": "7.00",
+    "Dulzura": "10.00",
+    "Fecha": "26/04/2019",
+    "Fragancia/Aroma": "7.50",
+    "ID": "1340",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "80.50",
+    "Sabor": "7.00",
+    "Sabor Residual": "7.00",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "16/06/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2337",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "82.75",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "8.00",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "07/07/2021",
+    "Fragancia/Aroma": "8.00",
+    "ID": "2352",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "84.75",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.25",
+    "Balamce": "7.25",
+    "Cuerpo": "7.25",
+    "Dulzura": "10.00",
+    "Fecha": "10/05/2021",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2318",
+    "Puntaje Catador": "7.25",
+    "Puntaje Total": "81.00",
+    "Sabor": "7.25",
+    "Sabor Residual": "7.25",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.25",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "21/09/2021",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2381",
+    "Puntaje Catador": "7.25",
+    "Puntaje Total": "82.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "30/09/2021",
+    "Fragancia/Aroma": "8.00",
+    "ID": "2403",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "85.00",
+    "Sabor": "8.00",
+    "Sabor Residual": "8.00",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.75",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "01/12/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2531",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "26/10/2021",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2473",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.75",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "09/12/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2533",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "07/07/2022",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2731",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "83.75",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.00",
+    "Balamce": "7.00",
+    "Cuerpo": "7.00",
+    "Dulzura": "10.00",
+    "Fecha": "08/11/2019",
+    "Fragancia/Aroma": "7.00",
+    "ID": "1565",
+    "Puntaje Catador": "8.00",
+    "Puntaje Total": "81.00",
+    "Sabor": "7.00",
+    "Sabor Residual": "8.00",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.75",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "16/03/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2297",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "05/11/2020",
+    "Fragancia/Aroma": "8.00",
+    "ID": "2079",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "84.50",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "16/06/2020",
+    "Fragancia/Aroma": "7.75",
+    "ID": "1926",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "84.00",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "11/02/2022",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2589",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "84.00",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "02/02/2022",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2574",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "82.75",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "22/10/2020",
+    "Fragancia/Aroma": "7.25",
+    "ID": "2066",
+    "Puntaje Catador": "7.25",
+    "Puntaje Total": "82.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "01/03/2021",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2288",
+    "Puntaje Catador": "7.25",
+    "Puntaje Total": "82.00",
+    "Sabor": "7.25",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.50",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "07/03/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2291",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.75",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.75",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "09/12/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2533",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "16/12/2020",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2172",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "84.00",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "8.00",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "09/02/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2254",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "84.50",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "8.00",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "20/01/2021",
+    "Fragancia/Aroma": "8.00",
+    "ID": "2226",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "85.00",
+    "Sabor": "8.00",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "8.00",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "30/11/2020",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2148",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.75",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "16/03/2022",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2605",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "82.75",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "22/12/2021",
+    "Fragancia/Aroma": "8.00",
+    "ID": "2554",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "84.50",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "8.00",
+    "Balamce": "8.00",
+    "Cuerpo": "8.00",
+    "Dulzura": "10.00",
+    "Fecha": "09/02/2021",
+    "Fragancia/Aroma": "8.00",
+    "ID": "2255",
+    "Puntaje Catador": "8.00",
+    "Puntaje Total": "86.00",
+    "Sabor": "8.00",
+    "Sabor Residual": "8.00",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "30/04/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2313",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "84.25",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "8.00",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "16/02/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2267",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "84.50",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "27/04/2022",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2632",
+    "Puntaje Catador": "8.00",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "23/07/2021",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2356",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "82.50",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "02/02/2022",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2574",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "82.75",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.25",
+    "Cuerpo": "7.25",
+    "Dulzura": "10.00",
+    "Fecha": "04/09/2019",
+    "Fragancia/Aroma": "7.50",
+    "ID": "1506",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "82.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "14/09/2020",
+    "Fragancia/Aroma": "8.00",
+    "ID": "2012",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "84.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "8.00",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.75",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "12/01/2021",
+    "Fragancia/Aroma": "7.75",
+    "ID": "2206",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.00",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.25",
+    "Dulzura": "10.00",
+    "Fecha": "07/10/2020",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2043",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "82.00",
+    "Sabor": "7.25",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "8.00",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "07/10/2020",
+    "Fragancia/Aroma": "7.50",
+    "ID": "2047",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.50",
+    "Sabor": "7.50",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.00",
+    "Balamce": "7.00",
+    "Cuerpo": "7.00",
+    "Dulzura": "10.00",
+    "Fecha": "09/11/2019",
+    "Fragancia/Aroma": "7.00",
+    "ID": "1763",
+    "Puntaje Catador": "7.00",
+    "Puntaje Total": "79.00",
+    "Sabor": "7.00",
+    "Sabor Residual": "7.00",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.50",
+    "Balamce": "7.50",
+    "Cuerpo": "7.50",
+    "Dulzura": "10.00",
+    "Fecha": "09/06/2020",
+    "Fragancia/Aroma": "7.50",
+    "ID": "1905",
+    "Puntaje Catador": "7.25",
+    "Puntaje Total": "82.50",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.50",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "25/08/2020",
+    "Fragancia/Aroma": "7.75",
+    "ID": "1992",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "84.00",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.75",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "16/06/2020",
+    "Fragancia/Aroma": "7.75",
+    "ID": "1927",
+    "Puntaje Catador": "7.75",
+    "Puntaje Total": "84.50",
+    "Sabor": "8.00",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  },
+  {
+    "Acidez": "7.75",
+    "Balamce": "7.50",
+    "Cuerpo": "7.75",
+    "Dulzura": "10.00",
+    "Fecha": "27/08/2020",
+    "Fragancia/Aroma": "7.50",
+    "ID": "1895",
+    "Puntaje Catador": "7.50",
+    "Puntaje Total": "83.50",
+    "Sabor": "7.75",
+    "Sabor Residual": "7.75",
+    "Taza Limpia": "10.00",
+    "Uniformidad": "10.00"
+  }
+]

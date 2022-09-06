@@ -1,3 +1,4 @@
+from cgitb import reset
 import os.path
 import fitz
 import glob
@@ -17,6 +18,7 @@ def pdf_files_path():
 
 
 def information_extraction_from_pdf():
+    data_pandas_format = []
     for pdf in pdf_files_path():
         with fitz.open(pdf) as pdf_file:
             for i in range(len(pdf_file)):
@@ -35,12 +37,28 @@ def information_extraction_from_pdf():
                 rectangle_black = Rect(163, 290, 462, 380)
                 text_black = page.get_textbox(rectangle_black).split("\n")
 
-                data = {'ID': f'{text_red[0]}','Fecha': f'{text_red[2]}'}
-                    
-                print(data)
-                # Write
-                with open("data.json", "a") as f:
-                    json.dump(data, f, ensure_ascii=False, sort_keys=True, indent=2)
+                data = {
+                    'Fecha': f'{text_red[2]}', 
+                    'ID': f'{text_red[0]}',
+                    'Fragancia/Aroma': f'{text_blue[1]}',
+                    'Sabor': f'{text_blue[3]}',
+                    'Sabor Residual': f'{text_blue[5]}',
+                    'Acidez': f'{text_blue[7]}',
+                    'Cuerpo': f'{text_blue[9]}',
+                    'Uniformidad': f'{text_blue[11]}',
+                    'Balamce': f'{text_blue[13]}',
+                    'Taza Limpia': f'{text_blue[15]}',
+                    'Dulzura': f'{text_blue[17]}',
+                    'Puntaje Catador': f'{text_blue[19]}',
+                    'Puntaje Total': f'{text_blue[21]}'
+                }
+
+                data_pandas_format.append(data)
+                
+    print(data_pandas_format)
+    # Write
+    with open("data.json", "a") as f:
+        json.dump(data_pandas_format, f, ensure_ascii=False, sort_keys=True, indent=2)
 
 
 def visualize_region_of_extraction():
