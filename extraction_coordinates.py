@@ -9,6 +9,7 @@ from fitz import Document, Page, Rect
 def main():
     return visualize_region_of_extraction()
 
+
 def input_test_file_checker():
     if len(sys.argv) > 2:
         sys.exit("Too many command-line arguments")
@@ -25,12 +26,12 @@ def visualize_region_of_extraction():
     To be scaled to the coffee_flavor_profiles files, it is considered to use the specific
     pdf format from the test pdf.
     """
-  
+
     try:
-        input_path = input_test_file_checker() 
+        input_path = input_test_file_checker()
         doc: Document = fitz.open(input_path)
     except fitz.fitz.FileNotFoundError:
-        print("Incorrect file name")   
+        print("Incorrect file name")
     else:
         for i in range(len(doc)):
             page: Page = doc[i]
@@ -41,7 +42,7 @@ def visualize_region_of_extraction():
             rectangle_yellow = Rect(163, 188, 462, 290)
             rectangle_black = Rect(163, 290, 462, 390)
 
-        # Draw a rectangle with specific color to visualize the data extraction area
+            # Draw a rectangle with specific color to visualize the data extraction area
             page.draw_rect(rectangle_red, width=1.5, color=(1, 0, 0))
             page.draw_rect(rectangle_blue, width=1.5, color=(0, 0, 1))
             page.draw_rect(rectangle_yellow, width=1.5, color=(1, 1, 0))

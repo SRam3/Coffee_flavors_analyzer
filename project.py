@@ -12,7 +12,6 @@ def main():
 
 def pdf_files_path():
     input_path = os.path.join("coffee_flavor_profiles", "*.pdf")
-    # input_path = "test.pdf"
     return glob.glob(input_path)
 
 
@@ -37,31 +36,29 @@ def information_extraction_from_pdf():
                 text_black = page.get_textbox(rectangle_black).split("\n")
 
                 data = {
-                    'Fecha': f'{text_red[2]}', 
-                    'ID': f'{text_red[0]}',
-                    'Fragancia/Aroma': f'{text_blue[1]}',
-                    'Sabor': f'{text_blue[3]}',
-                    'Sabor Residual': f'{text_blue[5]}',
-                    'Acidez': f'{text_blue[7]}',
-                    'Cuerpo': f'{text_blue[9]}',
-                    'Uniformidad': f'{text_blue[11]}',
-                    'Balance': f'{text_blue[13]}',
-                    'Taza Limpia': f'{text_blue[15]}',
-                    'Dulzura': f'{text_blue[17]}',
-                    'Puntaje Catador': f'{text_blue[19]}',
-                    'Puntaje Total': f'{text_blue[21]}',
-                    'Descripcion': f'{text_yellow}',
-                    'Humedad': f'{text_black[1]}',
-                    'Almendra sana': f'{text_black[3]}',
-                    'Broca': f'{text_black[5]}',
-                    'Pasilla': f'{text_black[7]}'
+                    "Fecha": f"{text_red[2]}",
+                    "ID": f"{text_red[0]}",
+                    "Fragancia/Aroma": f"{text_blue[1]}",
+                    "Sabor": f"{text_blue[3]}",
+                    "Sabor Residual": f"{text_blue[5]}",
+                    "Acidez": f"{text_blue[7]}",
+                    "Cuerpo": f"{text_blue[9]}",
+                    "Uniformidad": f"{text_blue[11]}",
+                    "Balance": f"{text_blue[13]}",
+                    "Taza Limpia": f"{text_blue[15]}",
+                    "Dulzura": f"{text_blue[17]}",
+                    "Puntaje Catador": f"{text_blue[19]}",
+                    "Puntaje Total": f"{text_blue[21]}",
+                    "Descripcion": f"{text_yellow}",
+                    "Humedad": f"{text_black[1]}",
+                    "Almendra sana": f"{text_black[3]}",
+                    "Broca": f"{text_black[5]}",
+                    "Pasilla": f"{text_black[7]}",
                 }
 
                 data_pandas_format.append(data)
-                # print(text_yellow)
-                
-    # print(text_yellow[0])
-    # Write
+
+    # Write data in json file
     with open("data.json", "a") as f:
         json.dump(data_pandas_format, f, ensure_ascii=False, sort_keys=True, indent=2)
 
