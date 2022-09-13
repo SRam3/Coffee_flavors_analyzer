@@ -2,6 +2,7 @@ import os.path
 import fitz
 import glob
 import json
+import sys
 
 from fitz import Page, Rect
 
@@ -10,9 +11,20 @@ def main():
     return information_extraction_from_pdf()
 
 
+def input_test_file_checker():
+    if len(sys.argv) > 2:
+        sys.exit("Too many command-line arguments")
+    elif len(sys.argv) < 2:
+        sys.exit("Too few command-line arguments")
+    return sys.argv[1]
+
+
 def pdf_files_path():
-    input_path = os.path.join("coffee_flavor_profiles", "*.pdf")
-    return glob.glob(input_path)
+    input_path = os.path.join(input_test_file_checker(), "*.pdf")
+    path = glob.glob(input_path)
+    if len(path) == 0:
+        raise FileNotFoundError("Incorrect file path")
+    return path
 
 
 def information_extraction_from_pdf():
@@ -22,7 +34,7 @@ def information_extraction_from_pdf():
             for i in range(len(pdf_file)):
                 page: Page = pdf_file[i]
 
-                # See visualize_region_of_extraction() for details
+                # See extraction_coordinates function for details
                 rectangle_red = Rect(30, 67, 250, 123)
                 text_red = page.get_textbox(rectangle_red).split("\n")
 
@@ -58,7 +70,7 @@ def information_extraction_from_pdf():
 
                 data_pandas_format.append(data)
 
-    # Write data in json file
+    # Write data in suitable json format to read as pandas dataframe
     with open("data.json", "a") as f:
         json.dump(data_pandas_format, f, ensure_ascii=False, sort_keys=True, indent=2)
 
