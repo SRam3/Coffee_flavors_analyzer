@@ -8,33 +8,28 @@ from fitz import Page, Rect
 
 
 def main():
-    return information_extraction_from_pdf()
+    user_path = input_test_file_checker()
+    return information_extraction_from_pdf(user_path)
 
 
-def input_test_file_checker():
-    if len(sys.argv) > 2:
-        sys.exit("Too many command-line arguments")
-    elif len(sys.argv) < 2:
-        sys.exit("Too few command-line arguments")
-    return sys.argv[1]
+def information_extraction_from_pdf(path):
+    """
+    Data from pdf documents written in a json file compatible to be
+    readed as pandas dataframe
 
-
-def pdf_files_path():
-    input_path = os.path.join(input_test_file_checker(), "*.pdf")
-    path = glob.glob(input_path)
-    if len(path) == 0:
-        raise FileNotFoundError("Incorrect file path")
-    return path
-
-
-def information_extraction_from_pdf():
+    :param path: User input folder name containing the information to be extrated
+    :type path: str
+    :raise FileNotFoundError: If path is not correct.
+    :rtype: json file
+    """
+    input_path = pdf_files_path(path)
     data_pandas_format = []
-    for pdf in pdf_files_path():
+    for pdf in input_path:
         with fitz.open(pdf) as pdf_file:
             for i in range(len(pdf_file)):
                 page: Page = pdf_file[i]
 
-                # See extraction_coordinates function for details
+                # See extraction_coordinates module for details
                 rectangle_red = Rect(30, 67, 250, 123)
                 text_red = page.get_textbox(rectangle_red).split("\n")
 
@@ -73,6 +68,37 @@ def information_extraction_from_pdf():
     # Write data in suitable json format to read as pandas dataframe
     with open("data.json", "a") as f:
         json.dump(data_pandas_format, f, ensure_ascii=False, sort_keys=True, indent=2)
+
+
+def input_test_file_checker() -> str:
+    """
+    Path name of the folder containing the pdf documents.
+
+    :param sys.argv: command line argument from user input
+    :type sys.argv: List
+    :rtype: str
+    """
+    if len(sys.argv) > 2:
+        sys.exit("Too many command-line arguments")
+    elif len(sys.argv) < 2:
+        sys.exit("Too few command-line arguments")
+    return sys.argv[1]
+
+
+def pdf_files_path(user_path: str):
+    """
+    List of documents in folder path
+
+    :param user_path: User input folder name containing the information to be extrated
+    :type user_path: str
+    :raise FileNotFoundError: If the user input is invalid
+    :rtype: List containing the pdf documents name
+    """
+    input_path = os.path.join(user_path, "*.pdf")
+    path = glob.glob(input_path)
+    if len(path) == 0:
+        raise FileNotFoundError("Incorrect file path")
+    return path
 
 
 if __name__ == "__main__":
