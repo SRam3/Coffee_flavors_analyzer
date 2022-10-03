@@ -2,7 +2,7 @@ import os.path
 import fitz
 import glob
 import json
-import sys
+import argparse
 
 from fitz import Page, Rect
 
@@ -70,19 +70,19 @@ def information_extraction_from_pdf(path):
         json.dump(data_pandas_format, f, ensure_ascii=False, sort_keys=True, indent=2)
 
 
-def input_test_file_checker() -> str:
+def input_test_file_checker() -> object:
     """
-    Path name of the folder containing the pdf documents.
+    object holding path name of the folder containing the pdf documents.
 
-    :param sys.argv: command line argument from user input
-    :type sys.argv: List
-    :rtype: str
+    :param argparse object: command line argument from user input
+    :type argparse
+    :rtype: argument values of parser object in readable string representation
     """
-    if len(sys.argv) > 2:
-        sys.exit("Too many command-line arguments")
-    elif len(sys.argv) < 2:
-        sys.exit("Too few command-line arguments")
-    return sys.argv[1]
+
+    parser = argparse.ArgumentParser(description="folder path")
+    parser.add_argument("-p", "--path", help="name path of the folder containing the pdf documents", type=str, required=True)
+    args = parser.parse_args()
+    return args
 
 
 def pdf_files_path(user_path: str):
@@ -94,6 +94,7 @@ def pdf_files_path(user_path: str):
     :raise FileNotFoundError: If the user input is invalid
     :rtype: List containing the pdf documents name
     """
+
     input_path = os.path.join(user_path, "*.pdf")
     path = glob.glob(input_path)
     if len(path) == 0:

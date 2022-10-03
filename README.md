@@ -44,8 +44,12 @@ pip install -r requirements.txt
 #### **Usage**
 
 ```python
-#returns 'data.json'
-python project.py [file_path]
+#Instructions
+python project.py --help
+```
+```python
+#Instructions
+python project.py --path [name path of the folder]
 ```
 
 ### **Additional Modules**
