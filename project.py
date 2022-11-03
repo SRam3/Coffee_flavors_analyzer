@@ -82,7 +82,7 @@ def input_test_file_checker() -> object:
     parser = argparse.ArgumentParser(description="folder path")
     parser.add_argument("-p", "--path", help="name path of the folder containing the pdf documents", type=str, required=True)
     args = parser.parse_args()
-    return args
+    return args.path
 
 
 def pdf_files_path(user_path: str):
