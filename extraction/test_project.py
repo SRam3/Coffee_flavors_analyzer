@@ -4,7 +4,7 @@ import unittest
 from unittest.mock import patch
 
 
-from project import (
+from data_extraction import (
     input_test_file_checker,
     pdf_files_path,
     information_extraction_from_pdf,
