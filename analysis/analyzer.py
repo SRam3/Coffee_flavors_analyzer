@@ -12,9 +12,9 @@ def main():
     except FileNotFoundError:
         sys.exit("File not found")
 
-    # data_exploration.get_histogram()
+    data_exploration.get_histogram()
     # data_exploration.get_description()
-    coffee.qualitative_sensorial_attributes()
+    # coffee.qualitative_sensorial_attributes()
 
 
 if __name__ == "__main__":

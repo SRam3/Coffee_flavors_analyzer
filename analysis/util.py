@@ -66,8 +66,12 @@ class Coffee(Exploration):
         Get qualitative sensorial attributes of coffee
         :return: None
         """
-        new_data = self.data.copy()
-        for i, l in enumerate(new_data['Descripcion']):
-            new_data['Descripcion'][i] = l.split(',')
-            new_data = new_data.explode('Descripcion')
-        print(new_data['Descripcion'].iloc[0:10])
+        self.data['Fragance'] = self.data['Descripcion'].str.extract(r'Fragancia: (.*?), ')
+        self.data['Aroma'] = self.data['Descripcion'].str.extract(r'Aroma: (\w+.\w+)')
+        self.data['Atributo'] = self.data['Descripcion'].str.extract(r'Defecto/ Atributo: (\w+.\w+.\w+)')
+        qual_sensorial_atributes = self.data[["Fragance", "Aroma", "Atributo"]]
+        qual_sensorial_atributes['Fragance'].fillna("N/A", inplace=True)
+        # print(qual_sensorial_atributes['Atributo'].value_counts())
+        # print(qual_sensorial_atributes['Fragance'].value_counts())
+        print(qual_sensorial_atributes['Aroma'].value_counts())
+

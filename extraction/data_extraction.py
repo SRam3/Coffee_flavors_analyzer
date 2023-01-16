@@ -56,7 +56,7 @@ def information_extraction_from_pdf(path):
                     "Dulzura": f"{text_blue[17]}",
                     "Puntaje Catador": f"{text_blue[19]}",
                     "Puntaje Total": f"{text_blue[21]}",
-                    "Descripcion": f"{text_yellow}",
+                    "Descripcion": f"{text_yellow}", #Apply Regex to configure this data
                     "Humedad": f"{text_black[1]}",
                     "Almendra sana": f"{text_black[3]}",
                     "Broca": f"{text_black[5]}",
