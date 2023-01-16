@@ -1,3 +1,7 @@
-coffee_flavor_profiles
+# OS junk files
+*.DS_Store
+*.ipynb_checkpoints
+
+coffee_flavor_profiles/
 outliers.py
-data
+data/
