@@ -20,6 +20,7 @@ This file takes as input (*using sys*), the folder path containing the pdf docum
 
 The information is separated into different rectangles, represented by coordinates:
 
+```math
 bottom left: ($x_0$, $y_1$)
 
 top left: ($x_0$, $y_0$)
@@ -27,6 +28,7 @@ top left: ($x_0$, $y_0$)
 bottom right: ($x_1$, $y_1$)
 
 top right: ($x_1$, $y_0$)
+```
 
 Every rectangle contains specific data that is being organized as a list of dictionaries.
 
