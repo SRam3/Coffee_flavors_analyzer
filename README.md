@@ -8,24 +8,25 @@ Coffee samples for every harvest in Colombia are analyzed, and the results are p
 
 Nevertheless, this information can be useful to obtain correlation between variables, or track defects which are produced in the transformation process of the seed since is manually picked until it is dehydrated.
 
-As a first stept in the development of this Software is to extract and organize the information in order to be statistically analized in the second part of the development.
+### **Data Extraction**:
+As a first stept in the development of this Software is to extract and organize the information, an example of the type of copy can be seen in the file sample_of_coffee_data.pdf
 
 Specific information of the software design are showed below:
 
 ```bash
-project.py
+/extraction/data_extraction.py
 ```
 This file takes as input (*using sys*), the folder path containing the pdf documents to extract the information and outputs a data.json file compatible to be readed as pandas dataframe.
 
 The information is separated into different rectangles, represented by coordinates:
 
-top left: ($x_0$, $y_0$)
-
-top right: ($x_1$, $y_0$)
-
 bottom left: ($x_0$, $y_1$)
 
+top left: ($x_0$, $y_0$)
+
 bottom right: ($x_1$, $y_1$)
+
+top right: ($x_1$, $y_0$)
 
 Every rectangle contains specific data that is being organized as a list of dictionaries.
 
@@ -45,20 +46,21 @@ pip install -r requirements.txt
 
 ```python
 #Instructions
-python project.py --help
+python extraction/data_extraction.py --help
 ```
 ```python
 #Instructions
-python project.py --path [name path of the folder]
+python extraction/data_extraction.py --path [directory_path]
 ```
 
-### **Additional Modules**
+#### **Additional Modules**
 ```bash
-extraction_coordinates.py [file_path]
+extraction/extraction_coordinates.py [file_path]
 ```
-This module is used to obtain the coordinates and assure the data that is going to be extracted.
+This module is used to obtain the coordinates and assure useful data that is going to be extracted.
 
+### **Data Analysis**:
 ```bash
-data_analizer .py
+analysis/analizer .py
 ```
 This module is used to check if the data.json output is suitable to be visualized.
