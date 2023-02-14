@@ -1,10 +1,10 @@
 # Coffee Flavors Analyzer
-#### Video Demo:  https://youtu.be/WYgWJc4UbIY
+#### Data Extraction (video demo):  https://youtu.be/WYgWJc4UbIY
 
 ### **Description**:
 The main idea representing this software, arises in the desire from obtain insight from La Celia farm coffee data since 2019.
 
-Coffee samples for every harvest in Colombia are analyzed, and the results are presented in pdf documents. But the majority of coffee growers does not know how to do with this results beyond identify the flavors presented in their coffee farm.
+Coffee samples for every harvest in Colombia are analyzed mainly by exportation companies in order to , and the results are presented in pdf documents. But the majority of coffee growers does not know how to do with this results beyond identify the flavors presented in their coffee farm.
 
 Nevertheless, this information can be useful to obtain correlation between variables, or track defects which are produced in the transformation process of the seed since is manually picked until it is dehydrated.
 
