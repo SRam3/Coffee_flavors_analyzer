@@ -2,5 +2,6 @@
 *.DS_Store
 .ipynb_checkpoints/
 
-coffee_flavor_profiles/
+# Python future imports
 outliers.py
+images/
