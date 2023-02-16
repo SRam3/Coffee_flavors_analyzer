@@ -18,7 +18,8 @@ def main():
     # coffee.flavors_distribution()
     # coffee.flavors_correlation()
     # coffee.flavors_distribution()
-    coffee.acidity()
+    # coffee.acidity()
+    coffee.Puntaje_Catador()
 
 if __name__ == "__main__":
     main()
