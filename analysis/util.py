@@ -129,3 +129,41 @@ class Coffee(Exploration):
         plt.yticks(size=20)
         acidity.plot(kind="hist", bins=10, figsize=(20, 15))
         plt.savefig("acidity.jpg")
+
+    def Puntaje_Catador(self):
+        """
+        Plot the puntaje catador as a function of the date in points
+        """
+        puntaje_catador = self.data[["Fecha", "Puntaje Catador"]].sort_values("Fecha")
+        puntaje_catador["Fecha"] = pd.to_datetime(puntaje_catador["Fecha"])
+        puntaje_catador = puntaje_catador.groupby(puntaje_catador["Fecha"].dt.year)["Puntaje Catador"].mean()
+        plt.figure(figsize=(10, 8))
+        plt.plot(puntaje_catador.index, puntaje_catador.values, marker="o")
+        plt.gca().yaxis.set_major_formatter("{:.2f}".format)
+        plt.xlabel("Año", size=18)
+        plt.ylabel("Puntaje Catador promedio", size=18)
+        plt.xticks(puntaje_catador.index, rotation=30, ha="right", size=15)
+        plt.yticks(size=15)
+        # plt.title("Puntaje Catador ", fontsize=18)
+        plt.savefig("puntaje_catador.jpg")
+
+
+
+
+        # puntaje_catador["Fecha"] = pd.to_datetime(puntaje_catador["Fecha"])
+        # puntaje_catador = puntaje_catador["Fecha"].dt.strftime("%Y-%m-%d")
+        # puntaje_catador = puntaje_catador.groupby("Fecha").mean()
+        # plt.plot(puntaje_catador["Fecha"], puntaje_catador["Puntaje Catador"], marker="o")
+        # plt.xlabel("Fecha", size=15)
+        # plt.ylabel("Puntaje Catador", size=15)
+        # plt.xticks(rotation=30, ha="right", size=10)
+        # plt.yticks(size=10)
+        # plt.title("Puntaje Catador", fontsize=15)
+        # plt.savefig("puntaje_catador.jpg")
+
+
+        # puntaje_catador["Fecha"] = puntaje_catador["Fecha"].dt.strftime("%Y-%m-%d")
+        # puntaje_catador["Fecha"] = pd.to_datetime(puntaje_catador["Fecha"])
+        # puntaje_catador = puntaje_catador.groupby("Fecha").mean()
+        # puntaje_catador.plot()
+        # plt.savefig("puntaje_catador.jpg")
