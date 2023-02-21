@@ -52,4 +52,4 @@ By using this data extraction program, we aim to provide a streamlined and effic
 notebooks/data_analysis.ipynb
 ```
 This notebook contains the data analysis process, which includes data cleaning, data visualization, and data analysis. The data analysis process is divided into three sections:
-The first one is related to the data cleaning process, which includes the following steps:
+The first one is related to the data origin, which is from La Celia coffee farm. The second section is related to the data exploration, which is the process of analyzing the data to find patterns and relationships. The third section is related to the data analysis, which is the process of using the data to answer questions and solve problems. And finally, a conclusions resuming the main insights of the data analysis.
