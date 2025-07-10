@@ -15,9 +15,9 @@ def main():
 def information_extraction_from_pdf(path):
     """
     Data from pdf documents written in a json file compatible to be
-    readed as pandas dataframe
+    read as pandas dataframe
 
-    :param path: User input folder name containing the information to be extrated
+    :param path: User input folder name containing the information to be extracted
     :type path: str
     :raise FileNotFoundError: If path is not correct.
     :rtype: json file
@@ -89,7 +89,7 @@ def pdf_files_path(user_path: str):
     """
     List of documents in folder path
 
-    :param user_path: User input folder name containing the information to be extrated
+    :param user_path: User input folder name containing the information to be extracted
     :type user_path: str
     :raise FileNotFoundError: If the user input is invalid
     :rtype: List containing the pdf documents name
