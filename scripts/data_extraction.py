@@ -66,7 +66,7 @@ def information_extraction_from_pdf(path):
                 data_pandas_format.append(data)
 
     # Write data in suitable json format to read as pandas dataframe
-    with open("data.json", "a") as f:
+    with open("data.json", "w") as f:
         json.dump(data_pandas_format, f, ensure_ascii=False, sort_keys=True, indent=2)
 
 
