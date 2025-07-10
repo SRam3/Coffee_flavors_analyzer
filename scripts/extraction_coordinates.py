@@ -19,12 +19,15 @@ def input_test_file_checker():
 
 
 def visualize_region_of_extraction():
-    """Function to create a set of rectangles that encircles the data to extract.
-    It uses a specific pdf file to test the coordinates of the rectangles to
-    extract the data. This coordinates are used in the information_extraction_from_pdf()
-    function located in project.py file.
-    To be scaled to the coffee_flavor_profiles files, it is considered to use the specific
-    pdf format from the test pdf.
+    """Create rectangles to visualize the areas of interest used for extraction.
+
+    A sample PDF file is used to test and demonstrate the coordinates of the
+    rectangles from which the data will be extracted. These same coordinates are
+    later consumed by the :func:`information_extraction_from_pdf` function in
+    ``scripts/data_extraction.py``.  This helper function therefore
+    demonstrates the coordinates that are ultimately used during the extraction
+    process. To be scaled to the coffee_flavor_profiles files, it is considered
+    to use the specific PDF format from the test PDF.
     """
 
     try:
