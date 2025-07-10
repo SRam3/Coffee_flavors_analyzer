@@ -49,7 +49,7 @@ def visualize_region_of_extraction():
             page.draw_rect(rectangle_black, width=1.5, color=(0, 0, 0))
 
             def text_extraction_validation():
-                """Print the information which has been extrated from the rectangle"""
+                """Print the information which has been extracted from the rectangle"""
                 rectangle_red_text = page.get_textbox(rectangle_red)
                 rectangle_blue_text = page.get_textbox(rectangle_blue)
                 rectangle_yellow_text = page.get_textbox(rectangle_yellow)
